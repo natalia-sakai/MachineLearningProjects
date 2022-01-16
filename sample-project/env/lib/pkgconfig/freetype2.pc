@@ -1,0 +1,14 @@
+prefix=/Users/nataliasakai/Downloads/MachineLearningProjects/sample-project/env
+exec_prefix=/Users/nataliasakai/Downloads/MachineLearningProjects/sample-project/env
+libdir=/Users/nataliasakai/Downloads/MachineLearningProjects/sample-project/env/lib
+includedir=/Users/nataliasakai/Downloads/MachineLearningProjects/sample-project/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.0.18
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/Users/nataliasakai/Downloads/MachineLearningProjects/sample-project/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2
